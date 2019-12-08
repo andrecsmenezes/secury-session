@@ -61,8 +61,8 @@ Nosso ***$_COOKIE*** fica assim:
 Já a nossa ***$_SESSION*** fica assim:
 
 	Array(
-	[VjgCbVZqCj4GWgJ5UyYMKQUyV3hUOFVi] => VhwCbVbECvgGagIsUzEMPQVzV1lUOFVhBSMEYQ
-	[VjoCbVZgCjIGaw] => VjcCZlZqCjIGaw
+		[VjgCbVZqCj4GWgJ5UyYMKQUyV3hUOFVi] => VhwCbVbECvgGagIsUzEMPQVzV1lUOFVhBSMEYQ
+		[VjoCbVZgCjIGaw] => VjcCZlZqCjIGaw
 	)
 
 
