@@ -1,3 +1,4 @@
+
 ## Sessões e Cookies seguros e criptografados
 Classe PHP para Cookie e Sessions seguros e criptografados.
 O funcionamento dele é bem simples.
@@ -43,6 +44,9 @@ Isso eu consegui fazer inserindo pelo `header("Set-Cookie:")`
 Porém essa "*gambiarra*", não permite inserir múltiplos cookies, então, utilizo apenas um, transformando ele em JSON. 
 
 E, quando pesquiso algum item no cookie, ele dá um `json_decode` e retorna o item que preciso. Ficou simples e funciona como uma luva.
+
+### Alterando a chave da criptografia
+Na classe, dentro do `__construct()` , existe uma variável chamada `$this->secret` aonde você pode alterar a chave da criptografia.
 
 ### Exemplo de criptografia:
 Nosso código fica assim:
