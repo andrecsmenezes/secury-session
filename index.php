@@ -15,12 +15,13 @@
 #	$secury:  Define se será criptografado ou não os dados:   true/false  
 #
 #########################################################################
-	$session = new session('cookie');
+	$session = new session();
 
 #########################################################################
 #  INSERE OU ALTERA O VALOR DE UM ITEM
 #########################################################################
 	$session->set("nome_usuario", 'João da Silva');
+	$session->set("login", 'admin');
 
 #########################################################################
 #  RESGATA O VALOR DE UMA VARIÁVE
@@ -31,4 +32,6 @@
 #  FINALIZA SESSÃO E EXCLUI O COOKIE
 #########################################################################
 	$session->finish();
+
+
 
