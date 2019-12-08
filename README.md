@@ -53,10 +53,12 @@ Nosso código fica assim:
 
 Nosso ***$_COOKIE*** fica assim:
 
-	Array([Vh8CRlYqCh8GRAIhUwYMGQUAV1lUEFVC] => {
-		"ViYCcFZiCj0GbAJ0UzoMAwUMV2RUPlVgBTAEXwR5DnsFcARlByRXbwFt":"VhwCbVbECvgGagIsUzEMPQVzV1lUOFVhBSMEYQ",
-		"ViYCcFZiCj0GbAJ0UzoMAwUMV2ZUPlVqBTwEbg":"VjcCZlZqCjIGaw"
-	})
+	Array(
+		[Vh8CRlYqCh8GRAIhUwYMGQUAV1lUEFVC] => {
+			"ViYCcFZiCj0GbAJ0UzoMAwUMV2RUPlVgBTAEXwR5DnsFcARlByRXbwFt":"VhwCbVbECvgGagIsUzEMPQVzV1lUOFVhBSMEYQ",
+			"ViYCcFZiCj0GbAJ0UzoMAwUMV2ZUPlVqBTwEbg":"VjcCZlZqCjIGaw"
+		}
+	)
 
 Já a nossa ***$_SESSION*** fica assim:
 
